@@ -1,6 +1,7 @@
 package tabuleiro;
 
 public class Posicao {
+	
 	private int linha;
 	private char coluna;
 	
@@ -36,6 +37,4 @@ public class Posicao {
 		return "Movimento: " + coluna+linha; 
 	}
 	
-	
-
 }
