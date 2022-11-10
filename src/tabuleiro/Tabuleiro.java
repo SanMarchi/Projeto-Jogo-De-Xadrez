@@ -29,12 +29,12 @@ public class Tabuleiro {
 		return colunas;
 	}
 	
-	public Peca peca(int linha, char coluna) {
-		return null;
+	public Peca peca(int linha, int coluna) {
+		return pecas[linha][coluna];
 	}
 	
 	public Peca peca(Posicao posicao) {
-		return null;
+		return pecas[posicao.getLinha()][posicao.getColuna()];
 	}
 	
 	public void moverPeca(Peca peca, Posicao posicao) {
